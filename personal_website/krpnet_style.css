@@ -1,0 +1,33 @@
+/*
+Need to specify css for each screen size
+
+For now, ill just focus on phone and laptop, so md
+*/
+body, html, .container-fluid {
+     height: 100%;
+}
+#side{
+  background-color: #FFC857;
+}
+#main{
+  background-color: #335C81;
+}
+
+.img-fluid{
+  width:50%;
+}
+
+.caption{
+   font-size: large;
+}
+
+
+@media (max-width: 768px	) {
+  .img-fluid{
+    width:25%;
+  }
+
+  .caption{
+     font-size: large;
+  }
+}
