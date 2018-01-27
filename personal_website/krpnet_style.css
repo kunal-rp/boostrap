@@ -4,30 +4,105 @@ Need to specify css for each screen size
 For now, ill just focus on phone and laptop, so md
 */
 body, html, .container-fluid {
-     height: 100%;
-}
-#side{
-  background-color: #FFC857;
-}
-#main{
-  background-color: #335C81;
+  height: 100%;
+  background-color: #2D1E2F;
+
 }
 
+a{
+  text-decoration: underline;
+}
+
+#info{
+  margin-top: 150px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+#offer{
+  margin-top: 50px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+
+
+#focuses{
+  margin: 50px;
+}
+.subtitle{
+  margin-top: 25px;
+}
+.subtitle_title{
+  color:#FF9F1C;
+}
+.text{
+  font-weight: lighter;
+}
+.section{
+  padding: 20px;
+}
 .img-fluid{
-  width:50%;
+  width:100%;
+},
+
+
+
+
+.thumbnail{
+  text-align: center;
+}
+.main_img{
+  margin:10px;
+}
+.social_img{
+  margin:100px;
 }
 
-.caption{
-   font-size: large;
+.breaker{
+  margin-top: 50px;
+  margin-left:250px;
+  margin-right:250px;
 }
+
 
 
 @media (max-width: 768px	) {
-  .img-fluid{
-    width:25%;
+
+  #info{
+    margin-top: 40px;
+    margin-left:20px;
+    margin-right:20px;
   }
 
+  #offer{
+    margin-top: 10px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+  #focuses{
+    margin: 0px;
+  }
+
+  .main_img{
+    margin:10px;
+  }
+
+  .img-fluid{
+    width:50%;
+  }
+
+  .subtitle_title{
+    color:#FF9F1C;
+    margin-top:10px;
+  }
   .caption{
      font-size: large;
+  }
+  .breaker{
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right:20px;
   }
 }
